@@ -1,5 +1,5 @@
 CFLAGS=-Wall
-LIBS=-lncurses
+LIBS=-lncurses -pthread
 CXX=g++
 
 .cpp.o:
