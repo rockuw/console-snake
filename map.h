@@ -9,6 +9,7 @@ class Map;
 class PaintObject
 {
   public:
+    virtual ~PaintObject() {}
     virtual void DrawSelf(Map* map) = 0;
 };
 
