@@ -45,10 +45,10 @@ Map::Map(int rows, int cols)
 
 Map::~Map()
 {
-    delete border_;
     if (autoRepaint_) {
         StopAutoRepaint();
     }
+    delete border_;
     endwin();
 }
 
